@@ -106,6 +106,3 @@ venv.bak/
 # openvino installers
 installers/win/
 installers/*.tgz
-
-# testing data
-pi_code/face/data/*
