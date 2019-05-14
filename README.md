@@ -6,8 +6,6 @@
 ```
 .
 │
-│  # some unimportant files
-│
 ├─installers
 │     README.txt            # Website where can download OpenVINO installer.
 │
