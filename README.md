@@ -24,7 +24,7 @@
 │      ├─data
 │      └─model
 │
-└─win_linux_code                # Sample code of Conversion model on x86/64 platforms
+└─win_linux_code             # Sample code of Conversion model on x86/64 platforms
         conv_pb_to_bin_xml.sh                   # Conversion PB model to IR (bin/xml) model.
         h5_to_pb_to_vino_file.ipynb             # Conversion keras (h5) model to IR (bin/xml) model notebook.
         h5_to_pb_to_vino_file.py                # ipython interpeter version as above.
