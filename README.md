@@ -10,15 +10,15 @@
 │     README.txt            # Website where can download OpenVINO installer.
 │
 ├─pi_code                   # Sample code of inference data on Pi 3
-│  ├─face                       # Detect faces using image file.
+│  ├─face                        # Detect faces using image file.
 │  │  ├─code
 │  │  │      test.py
 │  │  │
 │  │  ├─data
 │  │  └─model
 │  │
-│  └─mnist
-│      ├─code                   # Detect digits
+│  └─mnist                       # Detect digits
+│      ├─code
 │      │      static_digit_detection.py         # using image files.
 │      │      webcam_digit_detection.py         # using webcam.
 │      ├─data
