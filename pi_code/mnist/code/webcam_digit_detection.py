@@ -31,7 +31,7 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_MYRIAD)
 # Read the Camera
 vs = WebcamVideoStream(src=0).start()
 
-while true:
+while True:
     # grab the frame from the threaded video stream and resize it
     # to have a maximum width of 400 pixels
     frame = vs.read()
