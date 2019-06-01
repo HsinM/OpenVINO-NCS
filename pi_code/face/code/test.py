@@ -12,7 +12,7 @@ net.setPreferableTarget(cv2.dnn.DNN_TARGET_MYRIAD)
 
 
 # Read an image
-frame = cv.imread('../data/img.jpg')
+frame = cv2.imread('../data/img.jpg')
 
 
 # Prepare input blob and perform an inference
