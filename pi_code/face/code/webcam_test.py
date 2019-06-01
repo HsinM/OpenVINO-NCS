@@ -42,6 +42,8 @@ while True:
         if confidence > 0.5:
             cv2.rectangle(frame, (xmin, ymin), (xmax, ymax), color=(0, 255, 0))
             
+    cv2.imshow("Frame", frame)
+    
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
