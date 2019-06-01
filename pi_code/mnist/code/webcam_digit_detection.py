@@ -26,7 +26,7 @@ def rotate(image, angle, center=None, scale=1.0):
     return rotated
 
 # Load the model
-os.chdir(os.path.realpath(__file__))
+os.chdir(os.path.dirname(__file__))
 net = cv2.dnn.readNet('../model/inference_graph.xml', '../model/inference_graph.bin') 
 
 # Specify target device
