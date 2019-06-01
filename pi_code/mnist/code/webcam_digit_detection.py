@@ -2,6 +2,7 @@
 import cv2
 import numpy as np
 
+import os
 import imutils
 from imutils.video import WebcamVideoStream
 
@@ -25,6 +26,7 @@ def rotate(image, angle, center=None, scale=1.0):
     return rotated
 
 # Load the model
+os.chdir(os.getcwd())
 net = cv2.dnn.readNet('../model/inference_graph.xml', '../model/inference_graph.bin') 
 
 # Specify target device
