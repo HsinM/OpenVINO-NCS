@@ -29,7 +29,7 @@ from tensorflow.python.framework import graph_io
 keras_model = args.input_model_name
 
 output_graph_dir = './pb_model'
-output_graph_name = keras_model.split('.')[0] + '.pb'
+output_graph_name = 'model.pb'
 
 
 # In[5]:
