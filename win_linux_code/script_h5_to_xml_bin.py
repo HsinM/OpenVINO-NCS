@@ -26,7 +26,7 @@ from tensorflow.python.framework import graph_io
 # In[4]:
 
 
-keras_model = 'best_model.h5'
+keras_model = args.opt
 
 output_graph_dir = './pb_model'
 output_graph_name = keras_model.split('.')[0] + '.pb'
